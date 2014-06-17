@@ -1,0 +1,37 @@
+{
+  "name": "squishle-pegg",
+  "description": "Node app that pulls from Squishlescope and pushes to Pegg",
+  "version": "0.1.0",
+  "homepage": "https://github.com/auggernaut/squishle-pegg",
+  "author": {
+    "name": "Andrey Dimitrov",
+    "email": "rails.it18@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:auggernaut/squishle-pegg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/auggernaut/squishle-pegg/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/auggernaut/squishle-pegg/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/squishle-pegg",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
