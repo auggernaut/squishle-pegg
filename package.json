@@ -28,7 +28,6 @@
     "test": "grunt nodeunit"
   },
   "dependencies":{
-    "feed-read": "~0.0.1",
     "node-parse-api": "~0.2.8"
   },
   "devDependencies": {

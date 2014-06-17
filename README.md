@@ -8,7 +8,7 @@ Install the module with: `npm install squishle-pegg`
 
 ```javascript
 var squishle_pegg = require('squishle-pegg');
-squishle_pegg.awesome(); // "awesome"
+squishle_pegg.importFeed(); // "importFeed"
 ```
 
 ## Documentation
