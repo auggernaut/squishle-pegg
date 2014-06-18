@@ -5,8 +5,13 @@ Node app that pulls from Squishlescope and pushes to Pegg
 
 ## Getting Started
 First of all, clone this repository and cd into project folder.
+
+```
 npm install
+```
+```
 node index
+```
 
 This runs importing feed data to Parse.com
 
