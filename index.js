@@ -6,10 +6,10 @@ var squishle_pegg = require('./lib/squishle-pegg')
 				master_key: "C8fABMIWRZ7qZeXakTmyifANFniJXpQXHoK5QOBu"
 			};
 
-squishle_pegg.importFeed(options, function(err, res){
+squishle_pegg.importFeeds(options, function(err, res){
 	if(err) {
 		console.log("error ocurred!"+err);
 		return;
 	}
-	console.log("Importing done successfully!");
+	if(res) console.log("Importing done successfully!");
 });

@@ -4,12 +4,11 @@
 Node app that pulls from Squishlescope and pushes to Pegg
 
 ## Getting Started
-Install the module with: `npm install squishle-pegg`
+First of all, clone this repository and cd into project folder.
+npm install
+node index
 
-```javascript
-var squishle_pegg = require('squishle-pegg');
-squishle_pegg.importFeed(); // "importFeed"
-```
+This runs importing feed data to Parse.com
 
 ## Documentation
 _(Coming soon)_
@@ -24,8 +23,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2014 Andrey Dimitrov  
-Licensed under the MIT license.
+Copyright (c) 2014 Andrey Dimitrov
 
 
 
