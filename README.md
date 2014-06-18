@@ -30,23 +30,13 @@ _(Nothing yet)_
 ## License
 Copyright (c) 2014 Andrey Dimitrov
 
-
-
-requirements
-=============
-
-Node.js app that pulls from Squishlescope and pushes to Pegg
-
-
 ## Feed
 
 http://squishle.meteor.com/json
 
-
 ## Parse
 
 https://parse.com/docs/api_libraries
-
 
 ## Mappings
 ### Feed :: Parse
