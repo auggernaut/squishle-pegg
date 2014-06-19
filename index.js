@@ -8,8 +8,11 @@ var squishle_pegg = require('./lib/squishle-pegg')
 
 squishle_pegg.importFeeds(options, function(err, res){
 	if(err) {
-		console.log("error ocurred!"+err);
+		console.log("Error ocurred!"+err);
 		return;
 	}
-	if(res) console.log("Importing done successfully!");
+	if(res) 
+		console.log("Importing done successfully!");
+	else
+		console.log("Feeds imported already.");
 });
