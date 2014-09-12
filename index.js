@@ -1,18 +1,23 @@
-var squishle_pegg = require('./lib/squishle-pegg')
-  , options =
-  {
+(function() {
+  var options, squishle_pegg;
+
+  squishle_pegg = require("./lib/squishle-pegg");
+
+  options = {
     feed_url: "http://squishle.meteor.com/json",
-    app_id: "zogf8qxK4ULBBRBn2EhYWwddyUczTDks9w56mNsr",
-    master_key: "3ykoKuRAKk7zEBs4xejIfUqDmIxpOtaI5wyMH10R"
+    app_id: "0Scez33hVDjKMnNBxj8cGBN8sdjiRNxQmEWT3jH4",
+    master_key: "F5UWvKDHlZgTEW2hAzzucvkKsfV5dPt5H9cEyADQ"
   };
 
-squishle_pegg.importFeeds(options, function (err, res) {
-  if (err) {
-    console.log("Error ocurred!" + err);
-    return;
-  }
-  if (res)
-    console.log("Importing done successfully!" + res);
-  else
-    console.log("Feeds imported already.");
-});
+  squishle_pegg.importFeeds(options, function(err, res) {
+    if (err) {
+      console.log("Error occurred!" + err);
+    }
+    if (res) {
+      return console.log("Importing done successfully!" + res);
+    } else {
+      return console.log("Feeds imported already.");
+    }
+  });
+
+}).call(this);
